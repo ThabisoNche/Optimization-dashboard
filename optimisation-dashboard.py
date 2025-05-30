@@ -2,4 +2,5 @@ import streamlit as st
 
 st.title("Optimisation Dashboard")
 st.write("Welcome to the dashboard.")
-# Add your Streamlit widgets and logic here
+streamlit run optimisation_dashboard.py
+
