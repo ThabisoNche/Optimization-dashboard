@@ -1,5 +1,5 @@
-import sys
-import subprocess
+import streamlit as st
 
-# subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'pandas-2.0.3-cp38-cp38-win_amd64.whl', '-f', './', '--no-index', '--no-deps'])
-subprocess.check_call([sys.executable, '-m', 'streamlit', 'run', 'optimisation_dashboard.py', '--server.port', '8501'])
+st.title("Optimisation Dashboard")
+st.write("Welcome to the dashboard.")
+# Add your Streamlit widgets and logic here
